@@ -1,0 +1,57 @@
+#sp-install a {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-install.png') 10px center no-repeat #6699cc;
+}
+#sp-install a:hover {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-install.png') 10px center no-repeat #4080BF;
+}
+
+select#year, select#ida, select#idc{
+	clear: left;
+    float: left;
+    /* margin: 0 0 0 20px; 
+    min-width: 145px;	*/
+	display: block;
+}
+label#year, label#ida, label#idc{    
+    margin: 3px 0px 0px 0px;
+	display: block;
+}
+
+#storepapersForm fieldset{	
+	border: 1px solid #E5E5E5;
+    padding: 12px 24px 24px !important;
+}
+#storepapersForm fieldset legend{
+	padding: 0 6px;
+}
+/* Recuadro del panel de búsqueda */
+div.width-label {
+	width: 20%;
+    min-width: 120px;
+	max-width: 150px;
+}
+div.width-input {
+	width: 80%;
+    /* max-width: 600px; */
+}
+div.width-boton {
+	width: 100%;
+	padding: 15px 0px 0px;
+}
+.fltlft {
+    float: left;
+}
+.fltrt {
+    float: right;
+}
+/* Publicaciones devueltas por la consulta*/
+div.sp{
+	padding: 0 0 20px 10px;
+}
+
+h2.sp{
+	/* font-size: 26px; */
+    /* font-weight: 400; */
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- last head 27 spacer 10-->
+<config>
+	<fields addfieldpath="/administrator/components/com_storepapers/models/fields">	
+	
+	<fieldset 	name="permissions_LABEL"
+				description="JCONFIG_PERMISSIONS_DESC"
+				label="JCONFIG_PERMISSIONS_LABEL">
+				
+		<field 	name="rules" 
+				type="rules" 
+				component="com_storepapers" 
+				filter="rules" 
+				label="COM_STOREPAPERS_FIELD_JCONFIG_PERMISSIONS_LABEL" 
+				section="component" 
+				description="COM_STOREPAPERS_FIELD_DESC"
+		/>
+	</fieldset>
+	
+	</fields>
+</config>
